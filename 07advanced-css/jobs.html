@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Little Games By Two Giants">
+    <meta name="author" content="Trey Widtfeldt">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="gigantic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Two Giants Entertainment</title>
+</head>
+<body>
+<!--Start of the Page Header-->
+<header>
+    <img src="images/frontside.png" alt="site logo" width="100" height="100">
+    <div>
+    <h1>Two Giants Entertainment</h1>
+    <p>Little Games By Two Giants</p>
+    </div>
+</header>
+<!--Start of the Page Navigation-->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="games.html">Our Games</a></li>
+        <li class="active"><a href="jobs.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<!--Start of the Page Content-->
+<main>
+    <h1>Careers at Two Giants</h1>
+    <p>Looking to work with Two Giants? We're always happy to work alongside passionate and hardworking developers!</p>
+
+    <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+            <legend>What Department Are You Looking For?</legend>
+            <select name="role">
+                <option value="none">Please Pick a Position.</option>
+                <option value="production">Production</option>
+                <option value="engineering">Engineering</option>
+                <option value="art">Art and Visual Design</option>
+                <option value="audio">Audio</option>
+                <option value="qa">Quality Assurance</option>
+            </select>
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>Tell Us About Yourself!</legend>
+            <label>Full Name*<input type="text" name="fname" required placeholder="John Smith">
+            </label>
+            <label>Phone Number*<input type="tel" name="pnumber" required placeholder="801-123-4567">
+            </label>
+            <label>Email Address*<input type="email" name="email" required placeholder="apply@twogiants.net">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Work Preference</legend>
+            <label><input type="radio" name="method" value="remote">Work Remotely</label>
+            <label><input type="radio" name="method" value="hybrid">Hybrid Schedule</label>
+            <label><input type="radio" name="method" value="office">In Office</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Which Projects Would You Be Willing to Work On?</legend>
+            <label><input type="checkbox" name="sonata" value="chosen"> Sonata</label>
+            <label><input type="checkbox" name="a2" value="chosen"> A2</label>
+            <label><input type="checkbox" name="a3" value="chosen"> A3</label>
+            <label><input type="checkbox" name="a4" value="chosen"> A4</label>
+            <label><input type="checkbox" name="a5" value="chosen"> A5</label>
+            <label><input type="checkbox" name="a6" value="chosen"> A6</label>
+            <label><input type="checkbox" name="a7" value="chosen"> A7</label>
+            <label><input type="checkbox" name="a8" value="chosen"> A8</label>
+
+        </fieldset>
+        
+        <label>How Did You Learn About Us?
+            <textarea name="comments" placeholder="Tell Us How You Learned About Two Giants"></textarea>
+        </label>
+
+        <input type="submit" value="Send Application">
+    </form>
+</main>
+<!--Start of the Page Footer-->
+<footer>
+    <p>&copy; 2024 &bull; Two Giants Entertainment, LLC &bull; <a href="mailto:trey@twogiants.net">Email Us</a></p>
+</footer>
+
+</body>
+</html>
